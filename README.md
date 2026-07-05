@@ -1,16 +1,131 @@
-# React + Vite
+# 🌿 Flora Vision
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive plant store landing page built with **React.js**, **Vite**, and **CSS3** based on the provided Figma design. The application focuses on reusable React components, responsive layouts, and clean UI implementation.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- Responsive design (Desktop, Tablet & Mobile)
+- Reusable React components
+- Hero section
+- Trending Plants section
+- Top Selling Plants section
+- Customer Reviews section
+- Best O₂ Plants section
+- Footer with social links
+- Modern glassmorphism UI
+- CSS3 styling
+- Built using React + Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- Vite
+- JavaScript (ES6+)
+- CSS3
+- React Icons
+
+---
+
+## 📁 Project Structure
+
+```text
+src/
+│
+├── components/
+│   ├── Navbar/
+│   ├── Hero/
+│   ├── Trending/
+│   ├── TopSelling/
+│   ├── CustomerReview/
+│   ├── OxygenSection/
+│   └── Footer/
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+
+public/
+└── images/
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Nihith-aitha/Nature.git
+```
+
+Go to the project folder:
+
+```bash
+cd Nature
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+---
+
+## ▶️ Run the Project
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open your browser and visit:
+
+```text
+http://localhost:5173
+```
+
+---
+
+## 📦 Build for Production
+
+```bash
+npm run build
+```
+
+Preview the production build:
+
+```bash
+npm run preview
+```
+
+---
+
+## 🌐 Live Demo
+
+Add your deployed Vercel link here:
+
+```
+https://your-vercel-url.vercel.app
+```
+
+---
+
+## 📂 GitHub Repository
+
+```
+https://github.com/Nihith-aitha/Nature
+```
+
+---
+
+## 👨‍💻 Author
+
+**Nihith Aitha**
+
+GitHub: https://github.com/Nihith-aitha
