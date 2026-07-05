@@ -1,0 +1,115 @@
+.o2-section{
+    padding:100px 8%;
+}
+
+.o2-card{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+    background:rgba(255,255,255,.08);
+    backdrop-filter:blur(15px);
+
+    border:1px solid rgba(255,255,255,.15);
+
+    border-radius:40px;
+
+    padding:50px;
+    overflow:hidden;
+}
+.o2-image{
+    width:40%;
+}
+
+.o2-image img{
+    width:100%;
+    object-fit:contain;
+}
+.o2-content{
+    width:50%;
+}
+
+.o2-content h2{
+    font-size:42px;
+    margin-bottom:20px;
+}
+
+.o2-content p{
+    line-height:1.8;
+    color:#d7d7d7;
+    margin-bottom:30px;
+}
+.o2-actions{
+    display:flex;
+    gap:15px;
+}
+
+.o2-btn{
+    padding:14px 35px;
+    border-radius:10px;
+    border:1px solid white;
+    background:transparent;
+    color:white;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.o2-btn:hover{
+    background:white;
+    color:black;
+}
+
+.o2-arrow{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    border:1px solid white;
+    background:transparent;
+    color:white;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.o2-arrow:hover{
+    background:white;
+    color:black;
+}
+.o2-dots{
+    display:flex;
+    gap:10px;
+    margin-top:30px;
+}
+
+.o2-dots span{
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background:#666;
+}
+
+.o2-dots .active{
+    width:30px;
+    border-radius:20px;
+    background:white;
+}
+@media(max-width:992px){
+
+.o2-card{
+    flex-direction:column;
+    text-align:center;
+}
+
+.o2-image{
+    width:80%;
+    margin-bottom:30px;
+}
+
+.o2-content{
+    width:100%;
+}
+
+.o2-actions{
+    justify-content:center;
+}
+
+}

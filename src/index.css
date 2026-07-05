@@ -1,0 +1,51 @@
+/* Reset */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Root */
+
+html{
+    scroll-behavior:smooth;
+}
+
+/* Body */
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#0F1A10;
+    color:#fff;
+    overflow-x:hidden;
+}
+
+/* Images */
+
+img{
+    width:100%;
+    display:block;
+}
+
+/* Links */
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+/* Lists */
+
+ul{
+    list-style:none;
+}
+
+/* Buttons */
+
+button{
+    border:none;
+    outline:none;
+    cursor:pointer;
+    font-family:inherit;
+}
